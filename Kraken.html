@@ -136,7 +136,8 @@ Global Page Section Start
       <div class="col-lg-12">
         <div class="work-single-image">
           <!-- Work Single Image -->
-          <img class="img-fluid w-100" src="images/portfolio/Kraken/titlecard.png" alt="work-single-image">
+          <iframe width="700" height="400" src="https://www.youtube.com/embed/NJIvyngVwf8" title="YouTube video player" frameborder="0" allow="accelerometer;
+                  autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -146,16 +147,21 @@ Global Page Section Start
         <div class="work-single-content">
           <h3>Overview</h3>
           <p>
-            Kraken: A Tale of Revenge is a turn-based RPG with fishing mechanics for combat in a steampunk water world.<br />
+            <b>Kraken: A Tale of Revenge</b> is a turn-based <b>RPG</b> with <b>fishing</b> mechanics for combat in a steampunk water world.
+            Instead of scrolling through menus to select attacks, players fish up their action in a fishing minigame.<br />
             <br />
             Richard Pequod was a fisherman taking care of his daughter in a sleepy seaside town.  One day out of nowhere the titular Kraken attacked, destroying all Richard held dear.
             Years later Richard is knocked out of his depression daze by rumors that the Kraken has resurfaced, spurring him to embark on his tale of revenge.
           </p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/NJIvyngVwf8" title="YouTube video player" frameborder="0" allow="accelerometer;
-                  autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
           <br />
+
+          <div class=" image">
+            <img src="images/portfolio/Kraken/Kraken Battle.jpg" width="500" alt=" Gameplay loop for Kraken" />
+
+          </div>
           <br />
-          <h2>Concept Creation</h2>
+          <h2>Design Process : Conceptualization</h2>
           <p>
             The initial concept of Kraken was just one of many for a WarioWare style collection of minigames satirizing the prevalence of fishing minigames in the RPG/JRPG genres.
             My imagination quickly outgrew the scope of the project, so I homed in on the game scenario that had the most potential for fun and addicting gameplay while acting as a vehicle for seamless storytelling.
@@ -196,7 +202,7 @@ Global Page Section Start
             </div>
             <h2>System Design</h2>
             <p>
-              The core gameplay loop of Kraken is explore -> battle-> repeat, with a secondary loop based on battle preparation.
+              The core gameplay loop of Kraken is <b>explore -> battle -> repeat</b>, with a secondary loop based on <b>battle preparation</b>.
               The story will push the player to travel to different parts of the world. As they explore random encounters and boss enemies will stifle their progress, but if they overcome that they can earn rewards that help prepare them for other battles.
               These two loops keep the player engaged by giving multiple short- and long-term goals.
             </p>
@@ -208,12 +214,16 @@ Global Page Section Start
               <div class="image"></div>
               <img src=" images/portfolio/Kraken/Pequod.png" width="200" alt="Sprite art of main character" style="float:left;" margin-right 10px; />
             </div>
-            <h2>Programming</h2>
+            <h2>Technical Design</h2>
             <p>
-              While I was making the Kraken prototype I was faced with a choice: use a simpler built-in system or make my own more complicated one that would allow for more interactions later.
-              I would’ve been easier to use something already provided, but I chose the latter option so this project could scale up as much as needed. It doesn’t make sense to take the easy road in the beginning if its going to cause more problems later.
+              While I was making the Kraken prototype I was faced with a choice: use a simpler built-in system or make my own more complicated one that would be more flexible later.
+              Basically Unity had a system where I could call a bunch of things Dave, which is great when I'm in a room full of Daves. But what if I wanna hang out with David? Or Danielle? 
+              It would’ve been easier to use something that already existed, but I chose the harder road so the project could grow if it needed to. It doesn’t make sense to take easy street in the beginning if it will make things bumpy later.
               Kraken makes smart use of variables and collisions, checking the scripts of the game objects.
-              This makes it easier to keep track of what interactions are happening and makes error checking more straight-forward.
+              My system makes it easier to keep track of how different game objects talk to each other and makes keeping everything in order a breeze.
+              <div class="col-lg-12">
+                <a class="btn btn-dafault btn-work hvr-bounce-to-right" href="https://artcentergamedesign.atlassian.net/l/cp/TRpXsMsE">Dive Deeper</a>
+              </div>
             </p>
           </div>
           <br />
@@ -228,24 +238,12 @@ Global Page Section Start
               Any RPG worth its salt has a story that keeps players invested over the game’s length.
               For Kraken I wanted to make a character that players could empathize with while still feeling like someone who has enough motivation for revenge.
               The game starts with Pequod losing everything that made him happy, giving players a chance to grow with him.
-              The plan is to have Pequod go through trials that put him through the five stages of grief, ending with the defeat of the Kraken and his realization that he must continue living to honor the memory of his daughter.
-              I want Kraken to be a game that helps other people process their grief.
+              The plan is to have Pequod go through trials that put him through the <b>five stages of grief</b>, ending with the defeat of the Kraken and his realization that he must continue living to honor the memory of his daughter.
+              I want Kraken to be a game that helps other people process their <b>own grief</b>. For instance the ghost of Pequod's daughter acts as a metaphor for his survivor's guilt, constantly telling him fallacies to create self doubt.
+              If you've ever had a loved one pass on you know this feeling all to well.
             </p>
           </div>
-          <div class="container">
-            <br />
-            <!--- <div class="image"></div>
-    <img src="images/portfolio/CatMouse Diagram.png" width="700" />
-    <br />
-    <br />-->
-            <h2>Technical Design</h2>
-            <p>
 
-              For a deeper look at the unique selling point of Kraken please see the
-              <a href="https://artcentergamedesign.atlassian.net/l/cp/Jp3gsFEk">Combat Fishing Mechanic Technical Design Document</a>
-            </p>
-
-          </div>
 
         </div>
       </div>
@@ -265,11 +263,8 @@ Global Page Section Start
           <h5>Download link (Original Protoype)</h5>
           <h6><a href="files/Kraken Prototype Build.zip" download>Click Here</a></h6>
         </div>
-      </div>
-      <div class="col-lg-12">
-        <br />
-        <a class="btn btn-dafault btn-work hvr-bounce-to-right" href="https://artcentergamedesign.atlassian.net/l/cp/TRpXsMsE">Dive Deeper</a>
-      </div>
+
+       </div>
     </div>
   </div>
 </section>
