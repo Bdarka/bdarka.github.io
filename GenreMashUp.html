@@ -150,7 +150,7 @@ Global Page Section Start
           <h1>Core Statement</h1>
           <p>
             <b>Genre Mash-Up</b> is a <b>Fighter</b> game where each character is based on a different video game genre.
-            My main goals for this project are  to learn how to make fighter games and find ways to make that genre more accessible.
+            My main goals for this project are  to learn how to make <b>Fighter</b> games and find ways to make that genre more accessible.
             <br />
 
           </p>
@@ -164,11 +164,19 @@ Global Page Section Start
         <br />
         <h2>Game Pillars</h2>
         <p>
-          <b>Reimagined Mechanics:</b> Every characer is made with a specific genre in mind,
+          <b>Reimagined Mechanics:</b> Every character is an adaptation of a specific game genre.
+          Their attacks and systems are inspired by mechanics from the genre they represent.
+          Any fan of said genre should be immediately familiar with that character representative.
           <br />
-          <b>Rewarding Combat:</b>
           <br />
-          <b>Accessiblity</b>
+          <b>Rewarding Combat:</b> Combat decisions extend beyond “which of my attacks do the most damage?”
+            Every move a character can do will have both global and situational uses.
+            This incentivises mastery over whatever character the player picks.
+          <br />
+          <br />
+          <b>Accessiblity:</b> The <b>Fighter</b> game genre is notoriously difficult for new players.
+          Execution is the first hurdle, so players can choose between two input styles depending on their proficiency.
+          Onboarding is another roadblock, so the tutorial will tie jargon to tangible concepts.
         </p>
         <br />
 
@@ -176,18 +184,31 @@ Global Page Section Start
         <p>
           Below are details of the specific designs I created for the project and my thought process behind them.
         </p>
-        <br />
-
-        <br />
         <h2>Mechanics Design</h2>
-        </div>
+
       <p>
         Early in the project I decided that each fighter should have mechanics tied to their genre inspirations.
         This was challenging for the Fashion character as I tried to balance the slow methodical process in that genre with the fast pace of fighter games.
         The solution was an outfit system that allowed the Fashion fighter to dress their opponent.. Each piece of clothing has one attribute: Preppy, Cool, and Cute.
-        The opponent has three areas they can be clothed: Tops, Bottoms, and shoes. Below is a table with the outcomes based on the pieces they’re wearing when the outfit is complete:
+        The opponent has three areas they can be clothed: Tops, Bottoms, and Shoes. Below is a table with the outcomes based on the pieces they’re wearing when the outfit is complete:
         <div class=" image">
           <img src="images/portfolio/Genre MashUp/Fashion Table.png" width="500" alt="Fashion Fighter: Outcomes for Outfit System" />
+        </div>
+      </p>
+      <p>
+        If all three clothing types are used in an outfit then they receive damage instead.
+        <br/>
+        <br/>
+        In Fashion games Preppy, Cool, and Cute are categories that all others are derived from.
+        Keeping the amount of clothing types to 3 keeps the <b>Outfit System</b> simple enough to keep track of during a fight while still staying true to what inspired it.
+        <br/>
+        <br/>
+        The Outfit System effects were decided based on two factors: what types of effects would be useful but fair and would that effect make sense for that outfit combination.
+        For instance the logic behind lowering the speed of an all Cool outfit is a reference for walking away slowly from explosions.
+        Lowering the other player’s speed is also an incredibly handy effect.
+        Each time the Fashion player makes a successful outfit their <b>Outfit Lv</b> goes up, changing the effect of the next set of clothes.
+        Wardrobe Malfunctions lower the Outfit Lv in exchange for damage.
+        This creates a risk and reward choice of upping the outfit level to get stronger effects or cashing out for more straightforward damage.
       </p>
         <!-- Blockquote
   <blockquote>
@@ -214,127 +235,35 @@ Global Page Section Start
         <div class="container">
 
           <div class="image"></div>
-          <img src=" images/portfolio/Genre MashUp/ReferenceLogos.png" width="500" alt="Logos of Games Reference While Designed Fighter" style=margin-right 10px; />
+          <img src=" images/portfolio/Genre MashUp/Shooter.png" width="500" alt="AI generated image of Shooter character" style=margin-right 10px; />
 
 
-          <h3>Reference</h3>
+          <h3>Character Design</h3>
           <p>
-            This concept requires a vast amount of references due to the nature of its characters.
-            Each character has 4 in-genre reference points and several fighter game specific references.
-            For example the character <b>Fighter</b> was inspired by <b>Street Fighter 6, King of Fighters, Guilty Gear Strive and Marvel vs. Capcom: Clash of Super Heroes</b>.
-            The character’s moveset has specific character’s attacks as references like <b>Ryu’s Hadoken</b> or <b>Zangief’s Screw Pile Driver</b>.
-            You can find out more about this on <a href="https://artcentergamedesign.atlassian.net/l/cp/X85JX1hG">Fighter’s Confluence</a> page.
-            <!--<div class="col-lg-12">
-        <a class="btn btn-dafault btn-work hvr-bounce-to-right" href="https://artcentergamedesign.atlassian.net/l/cp/TRpXsMsE">Dive Deeper</a>
-      </div>--->
+            Creating characters in Genre fighter is a multistep process. I start by asking the question “what is a popular video game genre not currently represented in the game?”
+            Through research of classic genres it became clear that Genre Fighter needed a Shooter game inspired character.
           </p>
+            <div class="image"></div>
+            <img src=" images/portfolio/Genre MashUp/ShooterReferenceLogos.png" width="500" alt="AI generated image of Shooter character" style=margin-right 10px; />
+            <p>
+              Once I knew the genre to adapt, I studied recent and quintessential Shooter games. I took note of mechanics that were present throughout the genre’s history, like weapon selection and reloading. I represented these game designs in Gun Fire. Shooter players pick up ammo during a match, which they can load into one of 4 gun modes. Once they run out of ammo they can no longer use that move until they procure more. This makes Shooter follow the same logic as the games he represents, creating an entry point for new players.
+            </p>
+            <!--<div class="col-lg-12">
+    <a class="btn btn-dafault btn-work hvr-bounce-to-right" href="https://artcentergamedesign.atlassian.net/l/cp/TRpXsMsE">Dive Deeper</a>
+  </div>--->
+
         </div>
 
         <div class=" container">
-          </p>
-          <br />
-          <h2>Mockups</h2>
-          <p>
-
-            <img src="images/portfolio/Genre MashUp/Character Select Screen.png" width="300" alt="Fighter Character Mockup" style="margin-bottom:10px;" />
-            <br />
-            <a href="https://www.figma.com/file/OJxwjJlen0WH8QrxRHwzhC/Genre-Mash-Up-Mock-Up?type=design&node-id=36%3A2&mode=design&t=91Xc9HnEnucqp4Gg-1">Figma UI Mockups</a>
-            <br />
-            <br />
-            <img src="images/portfolio/Genre MashUp/Fighter.png" width="300" alt="Fighter Character Mockup" style="margin-bottom:10px;" />
-            <br />
-            Character Mockup: Fighter (created with Midjourney)
-            <br />
-            <br />
-            <img src="images/portfolio/Genre MashUp/Shooter.png" width="300" alt="Shooter Character Mockup" style="margin-bottom:10px;" />
-            <br />
-            Character Mockup: Shooter (created with Midjourney)
-            <br />
-
-          </p>
-
-          <br />
-          <br />
-          <div class="container">
-
-            <div class="image"></div>
-            <img src=" images/portfolio/Genre MashUp/Fighter Animation.gif" width="350" alt="Sprites of shark used for Prototype" />
-
-            <h3>Contributions</h3>
-            <p>
-              Below are details of the specific designs I created for the project and my thought process behind them.
-              <br />
-            </p>
-          </div>
-
-          <div class="container">
-            <div style=" text-align: left;">
-              <div class="image"></div>
-              <img src=" images/portfolio/Genre MashUp/Gun.gif" width="350" alt="Sprites of shark used for Prototype" style="float:right; margin-right: 10px;" />
-            </div>
-            <h2>Concept Creation</h2>
-            <p>
-              When I start a new design, I like to establish the Design Pillars that will guide the rest of development. For Genre Mash-Up I decided on these three:
-
-            </p>
-          </div>
-          <br />
-          <br />
-          <br />
-
           <div class=" container">
-
-
-            <div class="container">
-              <div style=" text-align: left;">
-
-                <div class="image"></div>
-                <img src=" images/portfolio/Genre MashUp/Kicking It Old School2.gif" width="350" alt="Sprites of shark used for Prototype" style="float:right; margin-right: 10px;" />
-              </div>
-              <br />
-              <br />
-              <h4>Battle Planning</h4>
-              <p>
-                I wanted to make sure each design not only paid homage to different genres but were intuitive to players coming from that different mindset.
-                An FPS player should be able to pick up Shooter and have some of their experiences carry over.
-              </p>
-            </div>
-
-            <div class="container">
-              <div style=" text-align: right;">
-                <div class="image"></div>
-                <img src=" images/portfolio/Genre MashUp/Gunner Flamethrower.gif" width="390" alt="Sprites of shark used for Prototype" style="float:left; " />
-                <br />
-                <br />
-                <br />
-              </div>
-              <h4>Keep Fighter Game Fundamentals in Mind</h4>
-              <p>
-                The only time the first Design Pillar should be avoided if it can ruin the fighter game experience.
-                The idea here is to remind everyone on the team that this project will be a constant balancing act between reference and balance.
-              </p>
-            </div>
-
-            <div class="container">
-              <div style=" text-align: left;">
-                <div class="image"></div>
-                <img src=" images/portfolio/Genre MashUp/Gunner Grenade.gif" width="350" alt="Sprites of shark used for Prototype" style="float:right; margin-right: 10px; transform:scaleX(-1)" />
-              </div>
-              <h4>Design with Casual Players in Mind</h4>
-              <p>
-                I want Genre MashUp to be as accessible as possible.
-                Every design decision in this game should ask “does this help lower the barrier of entry for new players?”
-                This question is what lead to the concept in the first place: making characters that have mechanics pulled from the genres they’re based on to make this game less intimidating for those player bases.
-
-              </p>
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/myDRXqeDi4Y?si=_2HVITusv5HKq-00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="image"></div>
+            <img src=" images/portfolio/Genre MashUp/Gun.gif" width="500" alt="3D turnaround of Shooter's gun'" style=margin-right 10px; />
             <br />
             <h3>Next Steps</h3>
             <p>
-              My next milestone for this project is two more characters concepted out based on Sports and Dress-Up games.
-              After that I’ll concept out a stage and some music to go with it before creating a vertical slice prototype.
+              My next milestone for this project is prototyping the rest of the attacks for Shooter before creating another character.
+              Create permanent assets for Shooter character.
+              Add music and title screen to make playtests feel more polished.
             </p>
 
             <h3>Attributions</h3>
